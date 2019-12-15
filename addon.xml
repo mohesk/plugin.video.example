@@ -10,9 +10,9 @@ provider-name="MohEsk">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Example Kodi Video Plugin</summary>
-  <description lang="en_GB">An example video plugin for Kodi mediacenter.</description>
-  <disclaimer lang="en_GB">Free sample videos are provided by www.vidsplay.com.</disclaimer>
+  <summary lang="en">TV stream link</summary>
+  <description lang="en_GB">Links to some Iranian and Trukish TV Channel</description>
+  <disclaimer lang="en_GB"></disclaimer>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
