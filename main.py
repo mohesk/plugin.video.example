@@ -19,20 +19,20 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'شبکه های فارسی': [{'name': 'رادیو جوان',
+VIDEOS = {'Iranian Channel': [{'name': 'RadioJavan',
                        'thumb': 'https://www.radiojavan.com/images/rj-touch-icon-144.png',
                        'video': 'https://stream.rjtv.tv/live/smil:rjtv.smil/playlist.m3u8',
                        'genre': 'Music'},
-                      {'name': 'من‌و‌تو',
+                      {'name': 'ManoTo',
                        'thumb': 'https://dwphh95xlnw84.cloudfront.net/images/shows/portrait/1060.jpeg',
                        'video': 'https://dow6lwapg8fa4.cloudfront.net/live.m3u8',
-                       'genre': 'Animals'},
-                      {'name': 'تپش',
+                       'genre': 'Social'},
+                      {'name': 'Tapesh',
                        'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/turtle-screenshot.jpg',
                        'video': 'iptv.tapesh.tv/tapesh/playlist.m3u8',
-                       'genre': 'Animals'}
+                       'genre': 'Music'}
                       ],
-            'Cars': [{'name': 'Postal Truck',
+            'IRIB': [{'name': 'Postal Truck',
                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/05/us_postal-screenshot.jpg',
                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/05/us_postal.mp4',
                       'genre': 'Cars'},
