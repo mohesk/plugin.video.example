@@ -19,10 +19,10 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Animals': [{'name': 'Crab',
-                       'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab-screenshot.jpg',
-                       'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/crab.mp4',
-                       'genre': 'Animals'},
+VIDEOS = {'Music': [{'name': 'RadioJavan',
+                       'thumb': 'https://www.radiojavan.com/images/rj-touch-icon-144.png',
+                       'video': 'https://stream.rjtv.tv/live/smil:rjtv.smil/playlist.m3u8',
+                       'genre': 'Music'},
                       {'name': 'Alligator',
                        'thumb': 'http://www.vidsplay.com/wp-content/uploads/2017/04/alligator-screenshot.jpg',
                        'video': 'http://www.vidsplay.com/wp-content/uploads/2017/04/alligator.mp4',
